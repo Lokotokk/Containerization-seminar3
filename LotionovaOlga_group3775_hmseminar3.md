@@ -23,6 +23,15 @@
 
 Удаляем контейнер и создаем его снова, подмонтировав директорию, видим, что данные доступны:  
 ![](https://github.com/Lokotokk/Containerization-seminar3/blob/main/images/7.png)  
+![](https://github.com/Lokotokk/Containerization-seminar3/blob/main/images/8.png)  
+
+## Часть-2 Хранение данных в контейнерах Docker:  
+Создаем папку в домашней директории, в которую будем готовы смонтировать в контейнер, смотрим список файлов, в этой папке создаем файл и наполняем его данными:    
+![](https://github.com/Lokotokk/Containerization-seminar3/blob/main/images/10.png)  
+
+Смонтируем файл из домашней директории внутрь смонтированной папки в контейнере, cмотрим содердимое файла из контейнера и из хостовой системы:  
+![](https://github.com/Lokotokk/Containerization-seminar3/blob/main/images/11.png)  
+
 
 
 
